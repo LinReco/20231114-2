@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./露西亞.jfif);
+}
+
+.view .top {
+  width: 60vw;
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.451);
+  border: 1px solid black;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.view .top p {
+  font-size: 36Pt;
+}
+.view .down {
+  background-color: rgba(255, 255, 255, 0.586);
+  width: 60vw;
+  height: 70vh;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 20pt;
+  display: flex; /* 彈性排版 */
+  flex-direction: column; /* 彈性方向:列(縱) */
+  text-align: center;
+}
+.view .down .block1 {
+  padding-top: 8vh;
+}
+.view .down .block1 input {
+  width: 250px;
+  height: 25px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.view .down .block1 button {
+  width: 100px;
+  height: 30px;
+  background-color: #607C7D;
+  color: white;
+  border-radius: 8px;
+}
+.view .down .block3 {
+  height: 50vh;
+  overflow-y: scroll;
+}/*# sourceMappingURL=練習題質數.css.map */
